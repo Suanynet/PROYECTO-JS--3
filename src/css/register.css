@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/abstract-gradient-neon-lights\ \(1\).jpg);
+    background-size: 100%;
+}
+
+.from-registro{
+    width: 400px;
+    background-color: #e3bfe7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(15, 15, 15) ;
+    box-shadow: 7px 13px 37px #f5dfef;
+}
+
+.from-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.control{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+
+.from-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.from-registro a{
+    color: rgb(85, 66, 66);
+    text-decoration: none;
+}
+
+.from-registro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.from-registro .buton{
+    width: 100%;
+    background: #000000;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

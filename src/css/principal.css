@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(../img/abstract-gradient-neon-lights\ \(1\).jpg);
+    background-size: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.alejar{
+    margin-left: 1150px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 1px 30px #fffeff
+}
+
+.alejar{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.alejar{background-color: #e3bfe7}
+.alejar:hover {background: #f076fd }
+
+
+.form-container {
+    margin-bottom: 20px;
+    width: 400px;
+    background-color: #e3bfe7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: rgb(15, 15, 15) ;
+    box-shadow: 7px 13px 37px #f5dfef;
+}
+
+.centrar2{
+    margin-left: 80px;
+}
+
+.centrar2{
+    text-shadow: 2px 2px 5px purple;
+}
+
+.color {
+    text-shadow: 2px 2px 5px rgb(163, 65, 134);
+}
+
+.control{
+
+    width: 500px;
+    background-color: #e3bfe7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: rgb(15, 15, 15) ;
+    box-shadow: 7px 13px 37px #f5dfef;
+}
+
+.tabla{
+    width: 500px;
+}
+
+.centrar{
+    margin-left: 140px;
+}
+
+.centrar{
+    text-shadow: 2px 2px 5px purple;
+}
+
+.control2{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+
+}
+
+.boton{
+    width: 100%;
+    background: #000000;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+@media (max-whidth: 768px) {
+    .padre {
+       grid-column: 1/-1 ;
+    }
+}

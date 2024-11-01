@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../img/abstract-gradient-neon-lights\ \(1\).jpg);
+    background-size: 100%;
+}
+
+.formulario-login{
+    width: 400px;
+    background-color: #e3bfe7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(7, 7, 7) ;
+    box-shadow: 7px 13px 37px #f5dfef;
+}
+
+.controles{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.botom{
+    width: 100%;
+    background: #000000;
+    border: none;
+    padding: 12px;
+    color: rgb(202, 184, 184);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.formulario-login a{
+    color: rgb(85, 66, 66);
+    text-decoration: none;
+    
+}
+
+.formulario-login a:hover {
+    color: rgb(252, 252, 252);
+    text-decoration: underline;
+    
+}
+
+.alejar2{
+    justify-content: center;
+}
+
+
+
+

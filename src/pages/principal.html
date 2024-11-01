@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTAS/HISTORIAL</title>
+    <link rel="stylesheet" href="../css/principal.css">
+</head>
+<body>
+
+
+    
+       <button class="alejar"><a href="http://localhost:1234/historial.html"a>Ver Historial</button>
+
+
+    <div class="padre">
+
+        <div class="form-container">
+            <h2 class="centrar2">Agregar Nueva Consulta</h2>
+            <form id="consultaForm">
+                <h3 class="color">Nombre Completo</h3>
+                <input class="control2" type="text" id="nombre" name="nombre" required>
+                <h3 class="color">Detalle consulta</h3>
+                <textarea class="control2" id="consulta" name="consulta" rows="4" required></textarea>
+                <select class="control2" name="" id="selector">
+                    <option value="">Seleccione el tipo de consulta</option>
+                    <option value="examen">Consulta de Examen</option>
+                    <option value="permisos">Permisos de informe al hogar</option>
+                    <option value="promedios">promedios de notas anuales</option>
+                </select>
+                <input id="consulta" class="boton" type="submit" value="Agregar Consulta">
+                
+                
+            </form>
+        </div>
+        
+        <section class="control">
+            <h2 class="centrar">Consultas Pendientes</h2>
+            <table class="tabla" id="consultaTable">
+                <thead>
+                    <tr>
+                        <th>Nombre del Estudiante</th>
+                        <th>Consulta</th> 
+                        <th>Hora de la Solicitud</th>
+                        <th>Aceptacion de consultas</th>
+                        <th>Eliminacion de consultas</th>
+                        <th><p id="gatito"></p></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+
+
+
+
+
+    </div>
+
+
+
+<script type="module" src="../js/consultas.js"></script>
+</body>
+</html>

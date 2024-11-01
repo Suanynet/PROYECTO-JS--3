@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "123",
+      "nombre": "suany",
+      "correo": "suany@gmail.com",
+      "contraseña": "12345"
+    },
+    {
+      "id": "12334",
+      "nombre": "Martha",
+      "correo": "evans@gmail.com",
+      "contraseña": "5849"
+    },
+    {
+      "id": "12334",
+      "nombre": "Martha",
+      "correo": "martha@gmail.com",
+      "contraseña": "5849"
+    },
+    {
+      "id": "12334",
+      "nombre": "Martha",
+      "correo": "martha@gmail.com",
+      "contraseña": "5849"
+    },
+    {
+      "id": "456",
+      "nombre": "evansw",
+      "correo": "evansporras@gmail.com",
+      "contraseña": "2900"
+    },
+    {
+      "id": "458",
+      "nombre": "evans",
+      "correo": "evans318@gmail.com",
+      "contraseña": "2004"
+    }
+  ],
+  "consultas": [],
+  "historial": [
+    {
+      "id": "173e",
+      "nombre": "Martha",
+      "consulta": "30ij2dksoe",
+      "hora": "28/8/2024, 12:01:57 p. m."
+    },
+    {
+      "id": "a072",
+      "nombre": "evans",
+      "consulta": "8i7y8iuj",
+      "hora": "28/8/2024, 12:02:24 p. m."
+    },
+    {
+      "id": "8510",
+      "nombre": "suany",
+      "consulta": "consultas",
+      "hora": "28/8/2024, 3:26:45 p. m."
+    }
+  ]
+}
